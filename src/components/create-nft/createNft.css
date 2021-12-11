@@ -1,0 +1,22 @@
+.select-after {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+.select-wrapper {
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  font-size: 0.9rem !important;
+  top: 36px !important;
+  right: 10px;
+  position: absolute;
+  z-index: 0 !important;
+}
+.select-wrapper .select-after::-ms-expand {
+  display: none !important;
+}

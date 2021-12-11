@@ -1,0 +1,13 @@
+.NftCard-Container {
+ /* height: 25vh; */
+ background-color: #15161A;
+}
+.nft-car-img {
+    height: 25vh;
+    width: 100%;
+    padding: 1rem;
+
+}
+.NftCard-description {
+    
+}

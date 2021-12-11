@@ -1,0 +1,65 @@
+.history-page {
+    margin-top: 10rem;
+}
+.history-table-c {
+  padding: 8px 20px 8px 20px;
+  border-radius: 14px;
+}
+
+.history-table-c table {
+  border-spacing: 0;
+}
+
+.history-table-c table button{
+    padding: .7rem 1.5rem;
+    font-size: .8rem;
+}
+
+.history-table-c .table-bordered td {
+    vertical-align: middle;
+}
+
+.history-table-c .table-bordered th {
+  border: 0px solid #dee2e6;
+}
+
+.history-table-c .table-bordered thead th {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.history-table-c .table-bordered td,
+.history-table-c .table-bordered th {
+  border: none;
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.history-table-c table tr th:not(:first-child) {
+  min-width: 10rem;
+}
+
+.pagination-wrap .page-link {
+  background-color: #343a40;
+  color: white !important;
+  border-color: #7a7a7a;
+}
+
+.pagination-wrap .page-link span {
+  color: white;
+}
+
+.pagination-wrap .page-item.active .page-link {
+  background: #4528dc;
+  border-color: #4528dc;
+}
+
+.pagination-wrap .page-item.disabled .page-link {
+  color: #343a40 !important;
+}
+
+.page-link:focus {
+  box-shadow: none !important;
+}
+
+.table-dark {
+  color: #cdcdcd;
+}
